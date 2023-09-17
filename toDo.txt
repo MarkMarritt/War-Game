@@ -1,0 +1,28 @@
+board.py
+!
+adjacentSquares() - Returns n layers of adjacentSquares
+onSquare() - returns what is on a square given the coordinate
+mapping dictionary - dictionary that maps coordinates to hexagons on screen, initally having None on each value
+?
+player and game info, ie whos turn/how much money
+
+graphics.py
+!
+needs a boarder with an interface around the edge
+loading images of: characters, objects e.g. castle and obstructions, interfaces. 
+?
+animations for the characters etc? running
+
+character
+!
+moveToSquare - move to a given square
+shootSquare - shoot at a charater if on square
+clickedOn - display info/menu on the character if it is clicked on
+displayMoves - display possible moves
+displayActions - display possible places to shoot
+?
+damage - deals x amount of damage to the character
+
+main.py
+!
+displayImages - display all of the images corresponding to the board
